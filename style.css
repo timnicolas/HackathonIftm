@@ -1,0 +1,82 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #411C6E;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: white;
+    margin: 0;
+    border-bottom: #411C6E solid 5px;
+    border-radius: 0;
+}
+
+.jumbotron .row {
+    display: flex;
+    justify-content: center;
+}
+
+.jumbotron img {
+    width: 100px;
+}
+
+.card {
+    padding-bottom: 40px;
+    transition: all 0.1s ease-in-out;
+    border-radius: 0;
+}
+
+.card:hover {
+    box-shadow: 0 5px 0 rgba(140,149,180,1);
+}
+
+.card-bottom {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-bottom small {
+    color: #411C6E;
+    font-size: 1.4rem;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+}
+
+.card-bottom button {
+    position: absolute;
+    right: 20px;
+    border-color: rgba(140,149,180,1);
+    color: rgba(140,149,180,1);
+    font-size: 1.1rem;
+}
+
+.card-bottom button:hover {
+    background: rgba(140,149,180,1);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        justify-content: center;
+        font-size: 2rem;
+    }
+}
