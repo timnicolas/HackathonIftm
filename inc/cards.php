@@ -7,9 +7,9 @@
         <h2><?php print $hotel->RatName; ?></h2>
         <p class="card-text"><?php print $hotel->RatDesc; ?></p>
         <div class="d-flex justify-content-between align-items-center">
-        <a class="card-bottom">
+        <a class="order card-bottom">
             <small><b><?php print $hotel->RoomPrice; ?>€</b> / nuit</small>
-            <span class="order" href="">Réserver <i class="fas fa-chevron-right"></i></span>
+            <span href="">Réserver <i class="fas fa-chevron-right"></i></span>
         </a>
         </div>
     </div>
