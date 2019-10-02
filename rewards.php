@@ -27,6 +27,8 @@ $rewards = array(
     ),
 );
 
+$active = 1;
+
 include 'inc/header.php'; ?>
 <main role="main">
     <div class="album py-5">

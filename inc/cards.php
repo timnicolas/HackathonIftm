@@ -9,7 +9,7 @@
         <div class="d-flex justify-content-between align-items-center">
         <a class="card-bottom">
             <small><b><?php print $hotel->RoomPrice; ?>€</b> / nuit</small>
-            <span href="">Réserver <i class="fas fa-chevron-right"></i></span>
+            <span class="order" href="">Réserver <i class="fas fa-chevron-right"></i></span>
         </a>
         </div>
     </div>

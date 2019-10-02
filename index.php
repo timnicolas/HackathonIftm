@@ -30,6 +30,8 @@ $hotelsRequest = Requests::get($endpoint . '/HotelAvail?agentDutyCode=' . $agent
 $hotels = json_decode($hotelsRequest->body);
 $OneHotel = $hotels->Hotels[0];
 
+$active = 0;
+
 // var_dump($hotels);die;
 include 'inc/header.php';
 

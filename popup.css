@@ -1,0 +1,76 @@
+body {
+	overflow-x: hidden;
+}
+
+.mainBox {
+	flex-direction: column;
+	min-height: 100vh;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mainBox button {
+	margin: 5px;
+}
+
+.notif {
+	position: fixed;
+	z-index: 100;
+	width: 400px;
+	padding: 18px;
+	background: #fff;
+	box-shadow: 0 25px 10px -15px rgba(0,0,0,0.05);
+	text-align: center;
+	top: 10px;
+	border: 1px solid #00000038;
+
+	right: -400px;
+	transition-delay: 1s;
+	transition-duration: .5s;
+
+}
+
+.notif.slide {
+	right: 10px
+}
+
+.notif h4 {
+	font-size: 1.6em;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.notif p {
+	font-size: 1.1em;
+	color: #626262;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.notif .progressBar {
+	flex: 1;
+	height: 26px;
+	background-color: #f8f8f8;
+	border: 1px solid #0000002b;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.notif .progressBar div {
+	/* background-color: green; */
+	background: linear-gradient(to right, #8496b9, #3b326a);
+	width: 60%;
+	height: 100%;
+
+	transition-delay: 2s;
+	transition-duration: .5s;
+}
+
+.notif .progressBar div em {
+	position: absolute;
+	width: 100%;
+	right: 0px;
+	color: white;
+}

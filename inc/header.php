@@ -12,9 +12,18 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 
 <body>
+    <div class="notif">
+        <h4>Comme à la maison</h4>
+        <p>effectuez 5 réservations</p>
+        <div class="progressBar">
+            <div><em>3 / 5</em></div>
+        </div>
+    </div>
+
     <section class="jumbotron text-left">
         <div class="container">
             <div class="row">
@@ -27,8 +36,8 @@
         <nav class="navbar navbar-expand-lg navbar-light container">
             <div class="navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index">Hotels <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="rewards">Rewards</a>
+                    <a class="nav-item nav-link <?php echo ($active == 0) ? "active" : "" ?>" href="index.php">Hotels <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link <?php echo ($active == 1) ? "active" : "" ?>" href="rewards.php">Succès</a>
                 </div>
             </div>
         </nav>
