@@ -35,7 +35,7 @@ include 'inc/header.php'; ?>
                     <div class="card card-rank bg-light">
                         <div class="card-body">
                             <h4 class="card-title"><b>Rang : </b> <span>#150</span> / 27350</h4>
-                            <p class="card-text">Félicitations, vous êtes <b>150ème</b> parmi les 27350 chasseurs de badge dans le programme <b>CDS Rewards Program</b>.</p>
+                            <p class="card-text">Félicitations, vous êtes <b>150ème</b> parmi les 27350 chasseurs de badge dans le programme <b>CDS Rewards</b>.</p>
                         </div>
                     </div>
                 </div>
