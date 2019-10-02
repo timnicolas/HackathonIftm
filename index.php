@@ -42,7 +42,11 @@ include 'inc/header.php';
 
             <div class="row">
                 <?php
+                $i = 0;
                 foreach ($OneHotel->RoomRateList as $hotel) {
+                    $i = $i + 1;
+                    if ($i > 5)
+                        $i = 0;
                     include 'inc/cards.php';
                 }
                 ?>
