@@ -1,5 +1,5 @@
 <div class="col-lg-4 d-flex align-items-stretch">
-    <div class="card mb-4 box-shadow">
+    <div class="card floating-card mb-4 box-shadow">
     <div class="card-thumbnail">
         <img class="card-img-top" src="<?php echo ("imgs/rooms/" . $i . ".jpg"); ?> " data-holder-rendered="true">
     </div>

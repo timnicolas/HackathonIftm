@@ -29,6 +29,11 @@ h2 {
     justify-content: center;
 }
 
+.jumbotron a {
+    text-decoration: none;
+    color: #411C6E;
+}
+
 .jumbotron .row {
     display: flex;
     justify-content: center;
@@ -41,6 +46,7 @@ h2 {
 .navbar {
     position: absolute;
     bottom: 0;
+    font-weight: bold;
 }
 
 .navbar-collapse {
@@ -61,7 +67,7 @@ h2 {
     opacity: 0.6;
 }
 
-.card:hover {
+.card.floating-card:hover {
     box-shadow: 0 7px 10px rgba(140, 149, 180, 0.7);
     transform: translateY(-7px);
 }
@@ -125,6 +131,16 @@ h2 {
 
 /* REWARDS */
 
+.card-rank {
+    color: white;
+    background: linear-gradient(0.25turn, #352182, #411C6E, #652182);
+    padding: 30px 20px;
+}
+
+.card-rank .card-title span {
+    font-weight: bold;
+}
+
 .centerImg {
     display: block;
     margin-left: auto;
@@ -153,6 +169,7 @@ h2 {
 
 .reward-card {
     padding: 25px 15px;
+    margin: 20px 0 !important;
 }
 
 @media (max-width: 992px) {

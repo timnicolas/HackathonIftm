@@ -32,19 +32,21 @@ include 'inc/header.php'; ?>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-2">
-                    <div class="card text-center bg-light">
+                    <div class="card card-rank bg-light">
                         <div class="card-body">
-                            <h5 class="card-title">Classement</h5>
-                            <p class="card-text">150 / 30000</p>
+                            <h4 class="card-title"><b>Rang : </b> <span>#150</span> / 27350</h4>
+                            <p class="card-text">Félicitations, vous êtes <b>150ème</b> parmi les 27350 chasseurs de badge dans le programme <b>CDS Rewards Program</b>.</p>
                         </div>
                     </div>
                 </div>
-                <div class="card-deck">
-                    <?php
-                    foreach ($rewards as $key => $reward) {
-                        include 'inc/rewards_cards.php';
-                    }
-                    ?>
+                <div class="col-md-12 mb-2">
+                    <div class="row">
+                        <?php
+                        foreach ($rewards as $key => $reward) {
+                            include 'inc/rewards_cards.php';
+                        }
+                        ?>
+                    </div>
                 </div>
 
             </div>
