@@ -1,29 +1,30 @@
 <?php
 
 $rewards = array(
+
+    'Comme à la maison #3' => array(
+        'description' => 'Réservez 5 hotels différents',
+        'rank'        => '140/330476',
+        'progress'    => '100%',
+        'icon'        => 'imgs/trophy.png'
+    ),
     'Internationnal #2' => array(
         'description' => 'Voyagez dans 10 pays differents',
         'rank'        => '140/330476',
         'progress'    => '50%',
         'icon'        => 'imgs/medal.png'
     ),
-    'Reservation #3' => array(
-        'description' => 'Réservez 30 hotels différents',
+    'Voyageur #2' => array(
+        'description' => 'Faites 30 000 km',
         'rank'        => '140/330476',
-        'progress'    => '33%',
-        'icon'        => 'imgs/trophy.png'
+        'progress'    => '5%',
+        'icon'        => 'imgs/flight.png'
     ),
     'Parrain #1' => array(
         'description' => 'Parrainez 10 personnes',
         'rank'        => '140/330476',
-        'progress'    => '10%',
+        'progress'    => '0%',
         'icon'        => 'imgs/diamond.png'
-    ),
-    'Voyageur #2' => array(
-        'description' => 'Faites 30 000 km',
-        'rank'        => '140/330476',
-        'progress'    => '70%',
-        'icon'        => 'imgs/flight.png'
     ),
 );
 

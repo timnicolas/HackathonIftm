@@ -1,5 +1,5 @@
 <div class="col-md-6">
-    <div class="card reward-card mb-4 box-shadow">
+    <div class="card reward-card mb-4 box-shadow <?php echo ($reward['progress'] < 100) ? "disabled" : "" ?>">
         <div class="row">
             <div class="col-4">
                 <img class="centerImg" src="<?php print $reward['icon']; ?>" alt="img badge">
