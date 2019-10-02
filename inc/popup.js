@@ -34,7 +34,7 @@ function increaseResa() {
 function unlockedArchivement(params) {
 	Swal.fire({
 		title: 'Nouveau succès débloqué!',
-		imageUrl: 'https://image.flaticon.com/icons/svg/608/608912.svg',
+		imageUrl: 'imgs/trophy.png',
 		imageWidth: 150,
 		imageHeight: 150,
 		html:

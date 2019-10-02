@@ -2,27 +2,23 @@
 
 $rewards = array(
 
-    'Comme à la maison #3' => array(
+    'Comme à la maison' => array(
         'description' => 'Réservez 5 hotels différents',
-        'rank'        => '140/330476',
         'progress'    => '100%',
         'icon'        => 'imgs/trophy.png'
     ),
-    'Internationnal #2' => array(
-        'description' => 'Voyagez dans 10 pays differents',
-        'rank'        => '140/330476',
-        'progress'    => '50%',
+    'Internationnal' => array(
+        'description' => 'Voyagez dans 5 pays differents',
+        'progress'    => '40%',
         'icon'        => 'imgs/medal.png'
     ),
-    'Voyageur #2' => array(
+    'Voyageur' => array(
         'description' => 'Faites 30 000 km',
-        'rank'        => '140/330476',
         'progress'    => '5%',
         'icon'        => 'imgs/flight.png'
     ),
-    'Parrain #1' => array(
+    'Parrain' => array(
         'description' => 'Parrainez 10 personnes',
-        'rank'        => '140/330476',
         'progress'    => '0%',
         'icon'        => 'imgs/diamond.png'
     ),
@@ -35,12 +31,21 @@ include 'inc/header.php'; ?>
     <div class="album py-5">
         <div class="container">
             <div class="row">
-
-                <?php
-                foreach ($rewards as $key => $reward) {
-                    include 'inc/rewards_cards.php';
-                }
-                ?>
+                <div class="col-md-12 mb-2">
+                    <div class="card text-center bg-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Classement</h5>
+                            <p class="card-text">150 / 30000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <?php
+                    foreach ($rewards as $key => $reward) {
+                        include 'inc/rewards_cards.php';
+                    }
+                    ?>
+                </div>
 
             </div>
         </div>
